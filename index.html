@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Esercizio LIM page</title>
+    <link rel="stylesheet" href="Lim_Ex.css">
+</head>
+
+<body>
+   
+<div class="impression_panel">
+
+    <header>
+        <img class="logo" src="logo.png">
+        <h1 class="catchphrase"> Taking Booleaners from A to B </h1>
+    </header>
+
+    <div class="top_menu"> <!-- menu statico con 3 bottoni-->
+        <button type="button"> Prenota </button> 
+        <button type="button"> Termina prenotazione </button>
+        <button type="button"> Accendi luci </button> 
+    </div>
+
+    <div class="user_info"> <!--blocco di informazioni riguardanti nickname dell'utente, posizione del veicolo e stato di carica, suddivise in ulteriori miniblocchi-->
+        
+        <div>
+           <span class="white_square"> &FilledSmallSquare; </span>
+           <span class="vehicle_user"> Monopattino Gino22 </span>
+        </div>
+          
+        <div>
+            <span class="white_arrow"> &RightArrow; </span>
+            <span class="vehicle_address"> Via Guadalametri - a 220 metri da te </span>
+        </div> 
+        <!--in questo caso statico di soli 3 elementi ho evitato di fare la classe low, mid, high ma in una schermata interattiva sarebbe comodo aggiungerla in concomitanza con .charge -->
+        <div class="charge">
+            Stato carica:
+            <div class="mid_charge"></div>
+        </div>
+
+    </div>
+
+    <div class="user_info"> 
+        
+        <div>
+           <span class="white_square"> &FilledSmallSquare; </span>
+           <span class="vehicle_user"> Monopattino Mike24 </span>
+        </div>
+          
+        <div>
+            <span class="white_arrow"> &RightArrow; </span>
+            <span class="vehicle_address"> Via Ricciardoni - a 420 metri da te </span>
+        </div>
+
+        <div class="charge">
+            Stato carica:
+            <div class="high_charge"></div>
+        </div>
+
+    </div>
+
+    <div class="user_info"> 
+        
+        <div>
+           <span class="white_square"> &FilledSmallSquare; </span>
+           <span class="vehicle_user"> Monopattino Fede154 </span>
+        </div>
+          
+        <div>
+            <span class="white_arrow"> &RightArrow; </span>
+            <span class="vehicle_address"> Via Mentarini - a 490 metri da te </span>
+        </div>
+
+        <div class="charge">
+            Stato carica:
+            <div class="low_charge"></div>
+        </div>
+
+    </div>
+    
+</div>
+
+</body>
+</html>

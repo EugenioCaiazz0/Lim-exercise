@@ -1,0 +1,100 @@
+body{
+    background-image: url("/Users/seradanilenko/Desktop/Esercizi html/Lim html/background.jpg"); 
+    background-size: cover;
+}
+
+
+/* pannello nero di sovrimpressione dentro al quale ho inserito tutti gli elementi*/
+.impression_panel{
+width: 65%;
+height: 85%;
+margin: auto;
+background-color:rgba(0, 0, 0, 0.45);
+border-radius: 5%;
+padding-top: 2.5%;
+padding-bottom: 2.5%;
+}
+
+/* Ho ricavato l'hex code del colore del logo e l'ho applicato agli elementi di brand (logo, catchphrase ed eventuali sfondi menu) per uniformarli */
+
+.logo{
+    max-width: 240px;
+    max-height: 110px;
+    display: block;
+    margin-left: auto; margin-right: auto;
+}
+
+
+
+.catchphrase{
+    color: #06dd00;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.user_info{
+    margin: auto;
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: normal;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.top_menu{
+    background-color: #06dd00;
+    margin: auto;
+    width: 60%;
+    height: 28px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+button{
+  padding: 2px;
+}
+
+.vehicle_user{
+    font-size: large;
+    color: white;
+}
+
+.vehicle_address{
+    font-size: smaller;
+    color: white;
+}
+
+.charge{
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.mid_charge{
+    width: 65%;
+    height: 24px;
+    background-color: #f5b453;
+    border-radius: 5px;
+}
+
+.low_charge{
+    width: 30%;
+    height: 24px;
+    background-color: #be4141;
+    border-radius: 5px;
+}
+
+.high_charge{
+    width: 90%;
+    height: 24px;
+    background-color: #1fc31f;
+    border-radius: 5px;
+}
+
+.white_square{
+    color: white;
+}
+
+.white_arrow{
+    color: white;
+}
